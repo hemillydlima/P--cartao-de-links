@@ -18,7 +18,7 @@ Primeiro projeto a ser desenvolvido
 <br>
 
 <p align="center">
-  <img alt="capa devliks" src="./.github/DevLinks • Projeto Discover (Community).jpg" width="100%">
+  <img alt="capa devliks" src="https://s3-alpha.figma.com/hub/file/3662877101/resized/1200x720/1fc5d4d4-c944-4a14-8b6d-5e6e519a3242-cover.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
