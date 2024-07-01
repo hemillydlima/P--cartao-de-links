@@ -86,11 +86,17 @@ body * {
     right: 0; 
     z-index: 1;
     transform: translateY(-50%);
+
+    animation:slide-two 0.4s forwards ;
 }
 .light #switch button {
-    right: 32px ;
-    left: initial;
+   
+    animation:slide 0.4s forwards ;
 }
+#switch button:hover{
+   outline: 8px solid var(--background-click); 
+}
+
 
 #switch span{
     display: block;
@@ -173,4 +179,21 @@ p {
     text-align: center;
     padding: 15px;
    
+}
+@keyframes slide {
+ from {
+    right: 0;
+ }
+ to{
+    right: 50%;
+ }
+
+}
+@keyframes slide-two {
+   from{
+    right: 50%;
+   } 
+   to{
+    right: 0;
+   }
 }
